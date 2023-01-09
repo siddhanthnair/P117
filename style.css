@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    color: blue;
+    background: aqua;
+}
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border: 5px solid red; 
+    margin-top: 35px ;
+    border-radius: 20px;
+    animation: Example 5s  1s Infinite;
+}
+
+@keyframes Example{
+    from{
+        box-shadow: 5px 5px 30px black;
+    }
+    to{
+        box-shadow: 5px 5px 30px grey;
+    }
+}
